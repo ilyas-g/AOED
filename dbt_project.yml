@@ -1,0 +1,8 @@
+colums:
+  - name: title
+    tests:
+      - not_null
+      - unique
+  - name: company
+    tests:
+      - not_null
